@@ -10,6 +10,11 @@
     }
 }
 
+body{
+    background-image: url('/assets/images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 @media (max-width: 576px) {
     body{
         background-image: url('/assets/images/bg-header-mobile.png');
