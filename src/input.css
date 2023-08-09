@@ -8,6 +8,12 @@
     .btn-mobile{
         @apply text-xl text-white font-serif py-4 rounded-full shadow-lg hover:opacity-75;
     }
+    .heading-mbl{
+       @apply font-serif text-zinc-700 text-4xl font-semibold text-center mt-8;
+    }
+    .subheading-mbl{
+        @apply font-serif text-zinc-600 text-3xl font-semibold text-center;
+    }
 }
 
 body{

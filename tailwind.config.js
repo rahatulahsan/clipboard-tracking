@@ -9,7 +9,11 @@ module.exports = {
       sans: ['Open Sans', 'sans-serif'],
       serif: ['Bai Jamjuree', 'sans-serif']
     },
-    extend: {},
+    extend: {
+      colors:{
+        clipboardcyan: '#26bba4'
+      }
+    },
   },
   plugins: [],
 }
