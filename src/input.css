@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+
+    .btn-mobile{
+        @apply text-xl text-white font-serif py-4 rounded-full shadow-lg hover:opacity-75;
+    }
+}
+
+@media (max-width: 576px) {
+    body{
+        background-image: url('/assets/images/bg-header-mobile.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
